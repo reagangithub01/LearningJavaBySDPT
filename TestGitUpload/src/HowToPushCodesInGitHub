@@ -1,0 +1,9 @@
+Troubleshoot for 'not Authorized' error when pushing to repo
+Ref: www.youtube.com/watch?v=lMQmTcBmq-U
+
+
+Steps:
+1. Generate token from Github site under Settings > Developer Setting
+2. Back to Eclips, Commit and Push again
+3. Enter User Name
+4. Enter generated token in #1 instead of password
