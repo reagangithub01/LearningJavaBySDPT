@@ -1,0 +1,21 @@
+*** ACCESS MODIFIERS -- CLASSES***
+default 	= it can only be accessed by classes in the SAME PACKAGE
+public 		= it can be accessed ANYWHERE as long as it is IMPORTED
+
+*** ACCESS MODIFIERS -- METHODS AND VARIABLES***
+default 	= it can only be accessed by classes in the SAME PACKAGE
+public 		= it can be accessed ANYWHERE as long as it is IMPORTED
+private 	= it can only be access inside its OWN CLASS
+protected 	= it can only be accessed by classes in the SAME PACKAGE and SUBCLASSES.
+
+*** non-ACCESS MODIFIERS -- CLASSES ***
+final 		= the class cannot be inherited by other classes
+abstract	= the class cannot be used to instantiate objects. We can only access abstract class by inheriting it from another class.
+
+*** non-ACCESS MODIFIERS -- METHODS AND VARIABLES ***
+final 		= variables cannot be reassigned. Methods cannot be overridden.
+static		= the variables/methods belongs to the class itself rather than its instance. NO NEED TO INSTANTIATE
+abstract	= it can only be used in an abstract class' methods. These methods does not have a body.
+transient	=
+synchronized=
+volatile	=
